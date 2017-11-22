@@ -1,11 +1,13 @@
-# Teema
-Just write.
+#Teema
+Just write. The ultimate distraction free text editor.
+
+*This is a work in progress.*
 
 ##Master rule
 All rules must support the ultimate goal of text **creation**.
 
 ##Rule n.1
-Absolutely **no** choises for the user.
+Absolutely **no** choices for the user.
 
 - One font
 - One size of a letter
@@ -18,13 +20,13 @@ Absolutely **no** choises for the user.
 - Only thing you can do is typing.
 
 ###The font
-Probably monospace. (Why?) Find a good and free monospace font.
+[Monospace](https://ia.net/writer/blog/writer-pro/)
 
 ###Size of a letter
 This depends on three things. Screen resolution, screen size and the distance of the reader. All of these are more or less variables. We probably can decide the ratio of hight to the distance of the reader. The we just have to identify the device.
 
 ###Length of a row
-I believe there is a rule of thumb for this.
+66-character line. [SOURCE](https://thedesignteam.io/the-type-snob-f221969a884b)
 
 ###Save location
 Desktop is easy to find and works as a natural middle point in a workflow.
@@ -34,7 +36,7 @@ Full screen. You should not be looking anything else.
 
 ##FAQ
 
-###Why is there no spell checing
+###Why is there no spell checking
 You should not be thinking about the spelling when you are creating something new. Spell correction is for the editing phase.
 
 ###Why can I not change X
