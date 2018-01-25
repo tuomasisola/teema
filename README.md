@@ -1,6 +1,8 @@
 # Teema
-Just write. The ultimate distraction free text editor.
 
+![teema](teema.png)
+
+Just write. The ultimate distraction free text editor.
 *This is a work in progress.*
 
 ## Master rule
@@ -26,7 +28,7 @@ Absolutely **no** choices for the user.
 This depends on three things. Screen resolution, screen size and the distance of the reader. All of these are more or less variables. We probably can decide the ratio of hight to the distance of the reader. The we just have to identify the device.
 
 ### Length of a row
-66-character line. [SOURCE](https://thedesignteam.io/the-type-snob-f221969a884b)
+[66-character line.](https://thedesignteam.io/the-type-snob-f221969a884b)
 
 ### Save location
 Desktop is easy to find and works as a natural middle point in a workflow.

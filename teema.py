@@ -1,13 +1,16 @@
+#!/usr/bin/env python3
+
 import sys, os
 from PyQt5 import QtWidgets, QtGui, QtCore
+
+QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
 
 STYLESHEET = ('QPlainTextEdit, QMessageBox {background: #f7f7f7; color: #212121;'
             'selection-color: #f7f7f7; selection-background-color: #212121 }')
 PATH_TO_DESKTOP = os.path.expanduser("~/Desktop/teema.txt")
 
-FONTSIZE = 24   #points
+FONTSIZE = 26   #points
 LINEWIDTH = 7   #inches
-
 
 class TextWindow(QtWidgets.QPlainTextEdit):
     def __init__(self):
@@ -36,9 +39,7 @@ class TextWindow(QtWidgets.QPlainTextEdit):
         self.setViewportMargins(sidemargin, 30, sidemargin, 30)
 
     def initFont(self):
-        database = QtGui.QFontDatabase.addApplicationFont("fonts/RobotoMono-Light.ttf")
-        family = QtGui.QFontDatabase.applicationFontFamilies(database)[0]
-        self.setFont(QtGui.QFont(family, FONTSIZE))
+        self.setFont(QtGui.QFont("Roboto Mono", FONTSIZE))
 
     def keyPressEvent(self, event):
         super().keyPressEvent(event)
